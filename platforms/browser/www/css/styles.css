@@ -1,0 +1,132 @@
+/*
+   statusbar-overlay sets the background color for the overlay. Black text is the default when the statusbar plugin is not added. When the
+   statusbar plugin is added, it also adds default setting to make the content white via:
+
+       <preference name="StatusBarStyle" value="lightcontent"/>
+
+   Setting the background color to black will allow the default light content (white text/icons) to show on it. The statusbar plugin is included
+   in the config.xml file and will be added by the CLI when you build locally.
+
+   See https://github.com/apache/cordova-plugin-statusbar
+*/
+.statusbar-overlay {
+    background: #000000;
+}
+.card_text{
+    color:#FFF;
+    font-family: Montserrat;
+    padding:5px;
+text-align: center;
+}
+.card_bottom{
+    width:20%;
+    margin:auto;
+    height:3px;
+}
+.radio_timesheet{
+    text-align: center;
+    padding:20px;
+}
+.timeframe_select{
+    text-align: center;
+    padding:15px;
+}
+#header_text{
+    text-align: center;
+    padding: 5px;
+    font-weight: bold;
+    font-size: 16px;
+}
+#header_text2{
+    text-align: center;
+    padding: 5px;
+    font-weight: bold;
+    font-size: 16px;
+}
+#header_text3{
+    text-align: center;
+    padding: 5px;
+    font-weight: bold;
+    font-size: 16px;
+}
+#header_text4{
+    text-align: center;
+    padding: 5px;
+    font-weight: bold;
+    font-size: 16px;
+}
+#header_line{
+    height:3px;
+    width:40%;
+    margin:auto;
+    background: aquamarine;
+}
+#header_line2{
+    height:3px;
+    width:40%;
+    margin:auto;
+    background: aquamarine;
+}
+#header_line3{
+    height:3px;
+    width:40%;
+    margin:auto;
+    background: aquamarine;
+}
+#header_line4{
+    height:3px;
+    width:40%;
+    margin:auto;
+    background: aquamarine;
+}
+.checkBox_radio{
+    background-color: #fb836f;
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    padding-top:18px;
+    font-weight: normal;
+    color: wheat;
+}
+.date_fill{
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    border: 1px solid lightcoral;
+}
+.toolbar input[type=checkbox]:checked + .tab_head{
+    background-color: #324a5e;
+    color:#FFF;
+}
+#date_table1{
+    background: #FFF;
+    overflow-y: auto;
+}
+#date_table2{
+    background: #FFF;
+    overflow-y: auto;
+}
+#date_table3{
+    background: #FFF;
+    overflow-y: auto;
+}
+#date_table4{
+    background: #FFF;
+    overflow-y: auto;
+}
+.tab_head{
+    color:#FFF;
+    text-align: center;
+    margin: 0;
+    padding-top: 10px;
+    height: 70px;
+    font-weight:normal;
+}
+.acc_text{
+    color: #FFF;
+    padding:5px;
+}
+.acc_icon{
+    font-size: 18px !important;
+    padding: 3px;
+}

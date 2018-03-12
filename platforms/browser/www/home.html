@@ -1,0 +1,62 @@
+<!-- We don't need a full layout in this file because this page will be parsed with Ajax. -->
+
+<!-- Top Navbar-->
+
+<!-- Pages container, because we use fixed-through navbar and toolbar, it has additional appropriate classes-->
+<div class="pages navbar-through toolbar-through">
+    <!-- Page, "data-page" contains page name -->
+    <div data-page="home" class="page">
+        <!-- Scrollable page content -->
+        <div class="navbar">
+            <div class="navbar-inner">
+                <!-- We need cool sliding animation on title element, so we have additional "sliding" class -->
+                <div class="center sliding">Time Management App</div>
+                <div class="right">
+                    <!--
+                              Right link contains only icon - additional "icon-only" class
+                              Additional "open-panel" class tells app to open panel when we click on this link
+                            -->
+                    <a href="#" class="link icon-only open-panel">
+                        <i class="icon icon-bars"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="page-content" style="margin-top: 8vh;">
+
+            <div class="col-xs-6" style="padding:1px;margin-top:10vh">
+                <a href="timesheet.html">
+                    <div class="card">
+
+                        <div class="card-content card-content-padding">
+                            <img style="padding:10px;margin:auto;height:20vh" class="img-responsive" src="lib/icon2.png" />
+                        </div>
+
+                    </div>
+                </a>
+                <div class="card_text"> TimeSheet Entry</div>
+                <div class="card_bottom" style="background:#324a5e"></div>
+            </div>
+            <div class="col-xs-6" style="padding:1px;margin-top:10vh">
+                <div class="card">
+
+                    <div class="card-content card-content-padding">
+                        <img style="padding:10px;margin:auto;height:20vh" class="img-responsive" src="lib/icon3.png" />
+                    </div>
+
+                </div>
+                <div class="card_text"> Task Overview</div>
+                <div class="card_bottom" style="background:#8aff00"></div>
+            </div>
+
+            <div class="col-xs-12"></div>
+
+            <div class="content-block">
+                <!--  <p>Page content goes here</p>
+
+                    Link to another page
+                    <a href="about.html">About app</a> -->
+            </div>
+        </div>
+    </div>
+</div>
